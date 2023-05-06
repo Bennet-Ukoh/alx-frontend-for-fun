@@ -1,3 +1,4 @@
+#!/usr/bin/python3
 """
 This script converts a Markdown file to an HTML file.
 
@@ -11,7 +12,7 @@ import os.path
 if __name__ == "__main__":
     if len(sys.argv) < 3:
         sys.stderr.write("Usage: ./markdown2html.py <inputfile> \
-                <outputfile>\n")
+        <outputfile>\n")
         sys.exit(1)
 
     input_file = sys.argv[1]
